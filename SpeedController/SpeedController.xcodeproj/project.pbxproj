@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8471B7151C28234D00B65100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471B7141C28234D00B65100 /* main.m */; };
+		8471B7181C28234D00B65100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471B7171C28234D00B65100 /* AppDelegate.m */; };
+		8471B71B1C28234D00B65100 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471B71A1C28234D00B65100 /* ViewController.m */; };
+		8471B71E1C28234D00B65100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8471B71C1C28234D00B65100 /* Main.storyboard */; };
+		8471B7201C28234D00B65100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8471B71F1C28234D00B65100 /* Assets.xcassets */; };
+		8471B7231C28234D00B65100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8471B7211C28234D00B65100 /* LaunchScreen.storyboard */; };
+		8471B72E1C28234D00B65100 /* SpeedControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471B72D1C28234D00B65100 /* SpeedControllerTests.m */; };
+		8471B7391C28234D00B65100 /* SpeedControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471B7381C28234D00B65100 /* SpeedControllerUITests.m */; };
+		8471B73E1C28234D00B65100 /* SpeedController WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8471B73D1C28234D00B65100 /* SpeedController WatchKit App.app */; };
+		8471B7441C28234D00B65100 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8471B7421C28234D00B65100 /* Interface.storyboard */; };
+		8471B7461C28234E00B65100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8471B7451C28234E00B65100 /* Assets.xcassets */; };
+		8471B74D1C28234E00B65100 /* SpeedController WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8471B74C1C28234E00B65100 /* SpeedController WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8471B7551C28234E00B65100 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471B7541C28234E00B65100 /* InterfaceController.m */; };
+		8471B7581C28234E00B65100 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471B7571C28234E00B65100 /* ExtensionDelegate.m */; };
+		8471B75B1C28234E00B65100 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471B75A1C28234E00B65100 /* NotificationController.m */; };
+		8471B75E1C28234E00B65100 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471B75D1C28234E00B65100 /* GlanceController.m */; };
+		8471B7611C28234E00B65100 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471B7601C28234E00B65100 /* ComplicationController.m */; };
+		8471B7631C28234E00B65100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8471B7621C28234E00B65100 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8471B72A1C28234D00B65100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8471B7081C28234C00B65100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8471B70F1C28234C00B65100;
+			remoteInfo = SpeedController;
+		};
+		8471B7351C28234D00B65100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8471B7081C28234C00B65100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8471B70F1C28234C00B65100;
+			remoteInfo = SpeedController;
+		};
+		8471B73F1C28234D00B65100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8471B7081C28234C00B65100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8471B73C1C28234D00B65100;
+			remoteInfo = "SpeedController WatchKit App";
+		};
+		8471B74E1C28234E00B65100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8471B7081C28234C00B65100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8471B74B1C28234E00B65100;
+			remoteInfo = "SpeedController WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8471B76A1C28234E00B65100 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8471B74D1C28234E00B65100 /* SpeedController WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B76E1C28234E00B65100 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8471B73E1C28234D00B65100 /* SpeedController WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8471B7101C28234C00B65100 /* SpeedController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8471B7141C28234D00B65100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8471B7161C28234D00B65100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8471B7171C28234D00B65100 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8471B7191C28234D00B65100 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8471B71A1C28234D00B65100 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8471B71D1C28234D00B65100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8471B71F1C28234D00B65100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8471B7221C28234D00B65100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8471B7241C28234D00B65100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8471B7291C28234D00B65100 /* SpeedControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8471B72D1C28234D00B65100 /* SpeedControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedControllerTests.m; sourceTree = "<group>"; };
+		8471B72F1C28234D00B65100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8471B7341C28234D00B65100 /* SpeedControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8471B7381C28234D00B65100 /* SpeedControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedControllerUITests.m; sourceTree = "<group>"; };
+		8471B73A1C28234D00B65100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8471B73D1C28234D00B65100 /* SpeedController WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeedController WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8471B7431C28234D00B65100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8471B7451C28234E00B65100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8471B7471C28234E00B65100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8471B74C1C28234E00B65100 /* SpeedController WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SpeedController WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8471B7521C28234E00B65100 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8471B7531C28234E00B65100 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		8471B7541C28234E00B65100 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		8471B7561C28234E00B65100 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		8471B7571C28234E00B65100 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		8471B7591C28234E00B65100 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		8471B75A1C28234E00B65100 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		8471B75C1C28234E00B65100 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		8471B75D1C28234E00B65100 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		8471B75F1C28234E00B65100 /* ComplicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplicationController.h; sourceTree = "<group>"; };
+		8471B7601C28234E00B65100 /* ComplicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationController.m; sourceTree = "<group>"; };
+		8471B7621C28234E00B65100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8471B7641C28234E00B65100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8471B70D1C28234C00B65100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B7261C28234D00B65100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B7311C28234D00B65100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B7491C28234E00B65100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8471B7071C28234C00B65100 = {
+			isa = PBXGroup;
+			children = (
+				8471B7121C28234D00B65100 /* SpeedController */,
+				8471B72C1C28234D00B65100 /* SpeedControllerTests */,
+				8471B7371C28234D00B65100 /* SpeedControllerUITests */,
+				8471B7411C28234D00B65100 /* SpeedController WatchKit App */,
+				8471B7501C28234E00B65100 /* SpeedController WatchKit Extension */,
+				8471B7111C28234D00B65100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8471B7111C28234D00B65100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8471B7101C28234C00B65100 /* SpeedController.app */,
+				8471B7291C28234D00B65100 /* SpeedControllerTests.xctest */,
+				8471B7341C28234D00B65100 /* SpeedControllerUITests.xctest */,
+				8471B73D1C28234D00B65100 /* SpeedController WatchKit App.app */,
+				8471B74C1C28234E00B65100 /* SpeedController WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8471B7121C28234D00B65100 /* SpeedController */ = {
+			isa = PBXGroup;
+			children = (
+				8471B7161C28234D00B65100 /* AppDelegate.h */,
+				8471B7171C28234D00B65100 /* AppDelegate.m */,
+				8471B7191C28234D00B65100 /* ViewController.h */,
+				8471B71A1C28234D00B65100 /* ViewController.m */,
+				8471B71C1C28234D00B65100 /* Main.storyboard */,
+				8471B71F1C28234D00B65100 /* Assets.xcassets */,
+				8471B7211C28234D00B65100 /* LaunchScreen.storyboard */,
+				8471B7241C28234D00B65100 /* Info.plist */,
+				8471B7131C28234D00B65100 /* Supporting Files */,
+			);
+			path = SpeedController;
+			sourceTree = "<group>";
+		};
+		8471B7131C28234D00B65100 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8471B7141C28234D00B65100 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8471B72C1C28234D00B65100 /* SpeedControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8471B72D1C28234D00B65100 /* SpeedControllerTests.m */,
+				8471B72F1C28234D00B65100 /* Info.plist */,
+			);
+			path = SpeedControllerTests;
+			sourceTree = "<group>";
+		};
+		8471B7371C28234D00B65100 /* SpeedControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8471B7381C28234D00B65100 /* SpeedControllerUITests.m */,
+				8471B73A1C28234D00B65100 /* Info.plist */,
+			);
+			path = SpeedControllerUITests;
+			sourceTree = "<group>";
+		};
+		8471B7411C28234D00B65100 /* SpeedController WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8471B7421C28234D00B65100 /* Interface.storyboard */,
+				8471B7451C28234E00B65100 /* Assets.xcassets */,
+				8471B7471C28234E00B65100 /* Info.plist */,
+			);
+			path = "SpeedController WatchKit App";
+			sourceTree = "<group>";
+		};
+		8471B7501C28234E00B65100 /* SpeedController WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8471B7531C28234E00B65100 /* InterfaceController.h */,
+				8471B7541C28234E00B65100 /* InterfaceController.m */,
+				8471B7561C28234E00B65100 /* ExtensionDelegate.h */,
+				8471B7571C28234E00B65100 /* ExtensionDelegate.m */,
+				8471B7591C28234E00B65100 /* NotificationController.h */,
+				8471B75A1C28234E00B65100 /* NotificationController.m */,
+				8471B75C1C28234E00B65100 /* GlanceController.h */,
+				8471B75D1C28234E00B65100 /* GlanceController.m */,
+				8471B75F1C28234E00B65100 /* ComplicationController.h */,
+				8471B7601C28234E00B65100 /* ComplicationController.m */,
+				8471B7621C28234E00B65100 /* Assets.xcassets */,
+				8471B7641C28234E00B65100 /* Info.plist */,
+				8471B7511C28234E00B65100 /* Supporting Files */,
+			);
+			path = "SpeedController WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8471B7511C28234E00B65100 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8471B7521C28234E00B65100 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8471B70F1C28234C00B65100 /* SpeedController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8471B76F1C28234E00B65100 /* Build configuration list for PBXNativeTarget "SpeedController" */;
+			buildPhases = (
+				8471B70C1C28234C00B65100 /* Sources */,
+				8471B70D1C28234C00B65100 /* Frameworks */,
+				8471B70E1C28234C00B65100 /* Resources */,
+				8471B76E1C28234E00B65100 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8471B7401C28234D00B65100 /* PBXTargetDependency */,
+			);
+			name = SpeedController;
+			productName = SpeedController;
+			productReference = 8471B7101C28234C00B65100 /* SpeedController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8471B7281C28234D00B65100 /* SpeedControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8471B7721C28234E00B65100 /* Build configuration list for PBXNativeTarget "SpeedControllerTests" */;
+			buildPhases = (
+				8471B7251C28234D00B65100 /* Sources */,
+				8471B7261C28234D00B65100 /* Frameworks */,
+				8471B7271C28234D00B65100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8471B72B1C28234D00B65100 /* PBXTargetDependency */,
+			);
+			name = SpeedControllerTests;
+			productName = SpeedControllerTests;
+			productReference = 8471B7291C28234D00B65100 /* SpeedControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8471B7331C28234D00B65100 /* SpeedControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8471B7751C28234E00B65100 /* Build configuration list for PBXNativeTarget "SpeedControllerUITests" */;
+			buildPhases = (
+				8471B7301C28234D00B65100 /* Sources */,
+				8471B7311C28234D00B65100 /* Frameworks */,
+				8471B7321C28234D00B65100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8471B7361C28234D00B65100 /* PBXTargetDependency */,
+			);
+			name = SpeedControllerUITests;
+			productName = SpeedControllerUITests;
+			productReference = 8471B7341C28234D00B65100 /* SpeedControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8471B73C1C28234D00B65100 /* SpeedController WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8471B76B1C28234E00B65100 /* Build configuration list for PBXNativeTarget "SpeedController WatchKit App" */;
+			buildPhases = (
+				8471B73B1C28234D00B65100 /* Resources */,
+				8471B76A1C28234E00B65100 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8471B74F1C28234E00B65100 /* PBXTargetDependency */,
+			);
+			name = "SpeedController WatchKit App";
+			productName = "SpeedController WatchKit App";
+			productReference = 8471B73D1C28234D00B65100 /* SpeedController WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8471B74B1C28234E00B65100 /* SpeedController WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8471B7671C28234E00B65100 /* Build configuration list for PBXNativeTarget "SpeedController WatchKit Extension" */;
+			buildPhases = (
+				8471B7481C28234E00B65100 /* Sources */,
+				8471B7491C28234E00B65100 /* Frameworks */,
+				8471B74A1C28234E00B65100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpeedController WatchKit Extension";
+			productName = "SpeedController WatchKit Extension";
+			productReference = 8471B74C1C28234E00B65100 /* SpeedController WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8471B7081C28234C00B65100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SLAI;
+				TargetAttributes = {
+					8471B70F1C28234C00B65100 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8471B7281C28234D00B65100 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8471B70F1C28234C00B65100;
+					};
+					8471B7331C28234D00B65100 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8471B70F1C28234C00B65100;
+					};
+					8471B73C1C28234D00B65100 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8471B74B1C28234E00B65100 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 8471B70B1C28234C00B65100 /* Build configuration list for PBXProject "SpeedController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8471B7071C28234C00B65100;
+			productRefGroup = 8471B7111C28234D00B65100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8471B70F1C28234C00B65100 /* SpeedController */,
+				8471B7281C28234D00B65100 /* SpeedControllerTests */,
+				8471B7331C28234D00B65100 /* SpeedControllerUITests */,
+				8471B73C1C28234D00B65100 /* SpeedController WatchKit App */,
+				8471B74B1C28234E00B65100 /* SpeedController WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8471B70E1C28234C00B65100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471B7231C28234D00B65100 /* LaunchScreen.storyboard in Resources */,
+				8471B7201C28234D00B65100 /* Assets.xcassets in Resources */,
+				8471B71E1C28234D00B65100 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B7271C28234D00B65100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B7321C28234D00B65100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B73B1C28234D00B65100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471B7461C28234E00B65100 /* Assets.xcassets in Resources */,
+				8471B7441C28234D00B65100 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B74A1C28234E00B65100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471B7631C28234E00B65100 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8471B70C1C28234C00B65100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471B71B1C28234D00B65100 /* ViewController.m in Sources */,
+				8471B7181C28234D00B65100 /* AppDelegate.m in Sources */,
+				8471B7151C28234D00B65100 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B7251C28234D00B65100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471B72E1C28234D00B65100 /* SpeedControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B7301C28234D00B65100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471B7391C28234D00B65100 /* SpeedControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8471B7481C28234E00B65100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8471B7581C28234E00B65100 /* ExtensionDelegate.m in Sources */,
+				8471B7551C28234E00B65100 /* InterfaceController.m in Sources */,
+				8471B75B1C28234E00B65100 /* NotificationController.m in Sources */,
+				8471B75E1C28234E00B65100 /* GlanceController.m in Sources */,
+				8471B7611C28234E00B65100 /* ComplicationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8471B72B1C28234D00B65100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8471B70F1C28234C00B65100 /* SpeedController */;
+			targetProxy = 8471B72A1C28234D00B65100 /* PBXContainerItemProxy */;
+		};
+		8471B7361C28234D00B65100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8471B70F1C28234C00B65100 /* SpeedController */;
+			targetProxy = 8471B7351C28234D00B65100 /* PBXContainerItemProxy */;
+		};
+		8471B7401C28234D00B65100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8471B73C1C28234D00B65100 /* SpeedController WatchKit App */;
+			targetProxy = 8471B73F1C28234D00B65100 /* PBXContainerItemProxy */;
+		};
+		8471B74F1C28234E00B65100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8471B74B1C28234E00B65100 /* SpeedController WatchKit Extension */;
+			targetProxy = 8471B74E1C28234E00B65100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8471B71C1C28234D00B65100 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8471B71D1C28234D00B65100 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8471B7211C28234D00B65100 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8471B7221C28234D00B65100 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8471B7421C28234D00B65100 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8471B7431C28234D00B65100 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8471B7651C28234E00B65100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8471B7661C28234E00B65100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8471B7681C28234E00B65100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "SpeedController WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLAI.SpeedController.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		8471B7691C28234E00B65100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "SpeedController WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLAI.SpeedController.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		8471B76C1C28234E00B65100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SpeedController_WatchKit_Extension;
+				INFOPLIST_FILE = "SpeedController WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLAI.SpeedController.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		8471B76D1C28234E00B65100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SpeedController_WatchKit_Extension;
+				INFOPLIST_FILE = "SpeedController WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLAI.SpeedController.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		8471B7701C28234E00B65100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeedController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLAI.SpeedController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8471B7711C28234E00B65100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeedController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLAI.SpeedController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8471B7731C28234E00B65100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpeedControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLAI.SpeedControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedController.app/SpeedController";
+			};
+			name = Debug;
+		};
+		8471B7741C28234E00B65100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpeedControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLAI.SpeedControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedController.app/SpeedController";
+			};
+			name = Release;
+		};
+		8471B7761C28234E00B65100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpeedControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLAI.SpeedControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpeedController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8471B7771C28234E00B65100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpeedControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SLAI.SpeedControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpeedController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8471B70B1C28234C00B65100 /* Build configuration list for PBXProject "SpeedController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471B7651C28234E00B65100 /* Debug */,
+				8471B7661C28234E00B65100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8471B7671C28234E00B65100 /* Build configuration list for PBXNativeTarget "SpeedController WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471B7681C28234E00B65100 /* Debug */,
+				8471B7691C28234E00B65100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8471B76B1C28234E00B65100 /* Build configuration list for PBXNativeTarget "SpeedController WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471B76C1C28234E00B65100 /* Debug */,
+				8471B76D1C28234E00B65100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8471B76F1C28234E00B65100 /* Build configuration list for PBXNativeTarget "SpeedController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471B7701C28234E00B65100 /* Debug */,
+				8471B7711C28234E00B65100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8471B7721C28234E00B65100 /* Build configuration list for PBXNativeTarget "SpeedControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471B7731C28234E00B65100 /* Debug */,
+				8471B7741C28234E00B65100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8471B7751C28234E00B65100 /* Build configuration list for PBXNativeTarget "SpeedControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8471B7761C28234E00B65100 /* Debug */,
+				8471B7771C28234E00B65100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8471B7081C28234C00B65100 /* Project object */;
+}
